@@ -1,0 +1,93 @@
+body {
+    background-color: #FFEDDE !important;
+
+  }
+.slider img{
+    width: 90%;
+}
+.head-floor{
+    background-color: #FFF5EC !important;
+}
+.banner h1{
+    /* font-size: 80px;     */
+    margin-bottom: -40px !important;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 200px;
+    text-transform: capitalize;
+    color: #2E266F;
+    opacity: 0.05;
+}
+.banner h3{
+    /* margin-bottom: -40px !important; */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    text-transform: capitalize;
+
+    color: #2E266F;
+
+
+}
+.head{
+    background-size: 335px !important;
+}
+.location{
+    height: 65px;
+    width: 280px;
+    background: #35CD8C;
+    border-radius: 0px 100px 100px 0px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.location h5{
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+
+}
+#search-field{
+    width: 360px;
+    height: 50px;
+}
+#btn{
+    position: absolute;
+    left: 390px;
+    width: 145px;
+    height: 50px;
+    border-radius: 60px 0px 0px 0px;
+    background: #FE043C;
+}
+/* .banner{
+    margin-left: 20px;
+} */
+/* Tablet and phone*/
+@media only screen and (max-device-width : 769px) {
+    .banner h1{
+        font-size: 121px !important;
+        margin-bottom: 0px !important;
+        opacity: 1;
+    }
+    .banner h3{
+        font-size: 29px !important;
+    }
+    .head{
+        background-size: 335px !important;
+    }
+}
+@media only screen and (max-device-width : 425px) {
+    .head{
+        background-size: 121px 100% !important;
+    }
+}
