@@ -80,36 +80,15 @@ input:focus, #search-btn:focus {
     border-radius: 60px 0px 0px 0px;
     background: #FE043C;
 }
-.middle h3{
-    margin-top: 35px;
-    text-align: center;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 48px;
-    color: #2E266F;
-    border-left: 10px solid orange;
-    margin-left: 40px;
-    padding: 0;
-    width: fit-content;
-}
-.middle p{
-  margin: 40px;
-}
+
 /* .banner{
     margin-left: 20px;
 } */
 
 @media only screen and (max-device-width : 1024px) {
-    .middle p{
-        margin: 40px;
-
-      }
-    .middle h3{
-        margin: 40px;
-        font-size: 33px;
-      }
+    
 }
+
 
 
 
@@ -137,25 +116,20 @@ input:focus, #search-btn:focus {
     #search-field{
         width: 208px;
     }
-    .middle h3{
-        margin: 40px;
-        font-size: 21px;
-      }
+    
 }
+
+
+
 @media only screen and (max-device-width : 425px) {
     .head{
         background-size: 121px 100% !important;
     }
-    .middle p{
-        margin: 0;
-        text-align: center;
-      }
-    .middle h3{
-        margin: 5px;
-
-        font-size: 48px;
-      }
+    
 }
+
+
+
 @media only screen and (max-device-width : 320px) {
     .search-bar{
         width: 250px;
