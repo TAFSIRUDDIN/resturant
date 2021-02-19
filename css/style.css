@@ -68,6 +68,10 @@ body {
     height: 54px;
     border: 0;
 }
+input:focus, #search-btn:focus {
+   outline: none;
+    
+}
 #search-btn{
     /* position: absolute;
     left: 390px; */
